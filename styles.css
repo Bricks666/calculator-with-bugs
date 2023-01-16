@@ -1,0 +1,16 @@
+.calculator {
+    display: grid;
+    gap: 1em;
+}
+
+.input {
+    width: 100%;
+
+    padding: 1em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+}
